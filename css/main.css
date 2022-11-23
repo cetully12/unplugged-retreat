@@ -132,10 +132,11 @@ p {
 
 img {
   border-style: none;
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -162,6 +163,14 @@ header {
 
 header .content-wrapper {
   margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+header figure {
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -239,6 +248,10 @@ footer p {
 
   /* ----- Hero Area ----- */
 .hero-area {
+  background: url(../img/unplugged-hero-image.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -288,6 +301,10 @@ input[type=button] {
 
   /* ----- Features ----- */
 .features {
+  background: url(../img/unplugged-retreat.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -334,6 +351,7 @@ input[type=button] {
 
   /* ----- Mobile Styles - About Page ----- */
 .mission {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -341,6 +359,7 @@ input[type=button] {
 }
 
 .contact-section {
+  background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -349,6 +368,7 @@ input[type=button] {
 
   /* ----- Mobile Styles - FAQ Page ----- */
 .faq {
+  background-color: #527158;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -466,6 +486,11 @@ input[type=button] {
   margin: 100px 0;
 }
 
+h2 {
+  font-size: 2.25em;
+  line-height: 1.333;
+}
+
     /* Header */
 header {
   justify-content: space-around;
@@ -475,6 +500,10 @@ header {
 header .content-wrapper {
   width: 100%;
   justify-content: space-between;
+}
+
+header figure {
+  width: 30%;
 }
 
 header nav {
@@ -490,6 +519,10 @@ header nav ul {
 }
 
     /* Hero Area */
+.hero-area {
+  min-height: 600px;
+}
+
 .hero-area h1 {
   font-size: 3em;
   line-height: 1;
@@ -529,6 +562,10 @@ aside .content-wrapper .form {
 }
 
     /* Reviews */
+.reviews h2 {
+  width: 85%;
+}
+
 .reviews article {
   display: flex;
   justify-content: space-between;
