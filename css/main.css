@@ -143,10 +143,6 @@ address {
   font-style: normal;
 }
 
-.content-wrapper {
-
-}
-
   /* ----- Base Header - Footer Styles ----- */
 header,
 footer {
@@ -566,13 +562,17 @@ aside .content-wrapper .form {
   width: 85%;
 }
 
+.reviews h3 {
+  width: 75%;
+  margin: 0;
+}
+
 .reviews article {
   display: flex;
   justify-content: space-between;
-  flex-flow: column wrap;
-  flex-basis: 50%;
 }
 
+.reviews article figure,
 .reviews article div {
   width: 49%;
 }
@@ -664,7 +664,7 @@ header {
     /* Hero */
 .hero-area h1 {
   font-size: 3.75em;
-  width: 60%;
+  width: 80%;
 }
 
     /* Aside */
@@ -692,6 +692,10 @@ h4 {
 }
 
     /* Reviews */
+.reviews h2 {
+  padding-bottom: 50px;
+}
+
 .reviews article div {
   width: 42%;
 }
