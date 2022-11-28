@@ -643,6 +643,10 @@ footer .copyright {
   align-items: flex-start;
 }
 
+.map figure{
+  padding-bottom: 45.5%;
+}
+
     /* FAQ Page */
 .faq .content-wrapper {
   justify-content: space-between;
@@ -724,6 +728,10 @@ footer h4 {
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 95%;
+}
+
+.map figure{
+  padding-bottom: 37.5%;
 }
 
     /* FAQ */
