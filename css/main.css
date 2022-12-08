@@ -663,6 +663,10 @@ footer .copyright {
   align-items: flex-start;
 }
 
+.contact-content h4 {
+  font-size: 1.5em;
+}
+
 .map figure{
   padding-bottom: 45.5%;
 }
@@ -678,6 +682,11 @@ footer .copyright {
 
 .faq h2 {
   width: 100%;
+}
+
+.faq h4, .faq p {
+  font-size: .875em;
+  line-height: 1.125;
 }
 }
 
@@ -748,6 +757,11 @@ footer h4 {
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 95%;
+  font-size: 3em;
+}
+
+.content-wrapper {
+  max-width: 960px;
 }
 
 .map figure{
@@ -757,6 +771,11 @@ footer h4 {
     /* FAQ */
 .faq h2 {
   width: 100%;
+}
+
+.faq h4, .faq p {
+  font-size: 1.125em;
+  line-height: 1;
 }
 }
 
